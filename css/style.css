@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+/* Base */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+date {
+    font-size: 80%;
+}
+
+
+/* common */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.display-columns {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header-container {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0px 2px 3px 0 rgba(8, 8, 8, .5); */
+}
+
+.header-bg {
+    background-image: url(../img/rounge.jpg);
+    background-color: #b9b2aa;
+    background-blend-mode: hard-light;
+}
+
+.page-logo {
+    width: 600px;
+    object-fit: cover;
+}
+
+header p {
+    text-align: center;
+    height: 50px;
+    color: #ffdd00;
+}
+
+/* Footer */
+.page-footer {
+    background: rgb(140, 0, 0);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-footer p {
+    color: #ffdd00;
+}
+
+
+/* main */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+main-area {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    min-width: 850px;
+    max-width: 600px;
+}
+
+
+side-area {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.title-box {
+    background-color: rgb(140, 0, 0);
+    font-size: 120%;
+    font-weight: bold;
+    text-indent: 20px;
+    color: #FFF;
+    width: 100%;
+    padding: 7px 0;;
+}
+
+
+/* 記事 */
+article {
+    width: 100%;
+    background: #FFF;
+    /* box-shadow: 0px 2px 3px 0 rgba(8, 8, 8, .5); */
+}
+
+.article-container {
+    margin: 20px 20px
+}
+
+.article-box {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #DDD;
+    padding: 15px 20px;
+}
+
+.article-box:hover {
+    color: #ffdd00;
+}
+
+.article-box img {
+    height: 108px;
+    width: 192px;
+    object-fit: cover;
+    border: 1px solid #DDD;
+}
+
+.article-box h1 {
+    font-size: 100%;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.article-box p {
+    font-size: 80%;
+    text-align: justify;
+    line-height: 120%;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.article-header {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.attribute {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 0 2%;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.category li {
+    list-style: none;
+    font-size: 80%;
+    background-color: #432;
+    color: #FFF;
+    border-radius: 3px;
+    margin: 0 5px 0 0;
+    padding: 0 10px;
+}
+
+/* 記事本文 */
+.article-contents {
+    margin: 20px 30px 80px 30px;
+}
+
+.thumbnail {
+    display: block;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.article-contents h1 {
+    font-size: 150%;
+    font-weight: bold;
+    text-indent: 20px;
+    border-bottom: 2px solid #666;
+    margin: 15px 0;
+}
+
+.article-contents h2 {
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 2.0;
+    text-indent: 20px;
+    border-bottom: 1px solid #666;
+    margin: 30px 0;
+}
+
+.article-contents p {
+    font-size: 100%;
+    line-height: 2.0;
+    padding: 0 20px;
+}
+
+/* プロフィール */
+profile {
+    max-width: 300px;
+    min-width: 300px;
+    margin-bottom: 30px;
+    background: #FFF;
+    /* box-shadow: 0px 2px 3px 0 rgba(8, 8, 8, .5); */
+}
+
+.profile-contents {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+profile h1 {
+
+    font-size: 150%;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+profile p {
+    font-size: 80%;
+    text-align: center;
+    margin: 10px 25px;
+}
+
+profile .twitter {
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    background: #5cacdc;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 10px 35px;
+}
+
+.twitter:hover {
+    background: #9fc4db;
+    transform: 2px 0;
+}
