@@ -1,50 +1,10 @@
 const articles = [
     {
-        title: "タイトル1",
-        opening: "冒頭1",
-        path: "./html/article.html",
+        title: "【EPL21-22】シーズンプレビュー",
+        opening: "ついに新シーズン開幕ですね。昨シーズンは、アストン・ヴィラに7失点したり、負傷者が続出したり、Anfieldで6連敗したり、スーパーリーグ構想で騒動が起きたり、アリソンが決勝ゴール決めたりと、書ききれないくらい色々なことが起こりました。圧倒的強さでプレミア初優勝を果たした翌",
+        path: "./html/20210813.html",
         thumbnail: "./img/20210813/thumbnail.jpg",
-        date: "2021.09.01",
-        tag: ["EPL","UCL","BOOK"]
-    },
-    {
-        title: "タイトル2",
-        opening: "冒頭2",
-        path: "./html/article.html",
-        thumbnail: "./img/20210813/thumbnail.jpg",
-        date: "2021.09.01",
-        tag: ["EPL","UCL","BOOK"]
-    },
-    {
-        title: "タイトル3",
-        opening: "冒頭3",
-        path: "./html/article.html",
-        thumbnail: "./img/20210813/thumbnail.jpg",
-        date: "2021.09.01",
-        tag: ["EPL","UCL","BOOK"]
-    },
-    {
-        title: "タイトル4",
-        opening: "冒頭4",
-        path: "./html/article.html",
-        thumbnail: "./img/20210813/thumbnail.jpg",
-        date: "2021.09.01",
-        tag: ["EPL","UCL","BOOK"]
-    },
-    {
-        title: "タイトル5",
-        opening: "冒頭5",
-        path: "./html/article.html",
-        thumbnail: "./img/20210813/thumbnail.jpg",
-        date: "2021.09.01",
-        tag: ["EPL","UCL","BOOK"]
-    },
-    {
-        title: "タイトル6",
-        opening: "冒頭6",
-        path: "./html/article.html",
-        thumbnail: "./img/20210813/thumbnail.jpg",
-        date: "2021.09.01",
-        tag: ["EPL","UCL","BOOK"]
+        date: "2021.08.13",
+        tag: ["EPL","Liverpool"]
     }
 ]

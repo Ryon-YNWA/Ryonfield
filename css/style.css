@@ -54,7 +54,8 @@ date {
 }
 
 .header-bg {
-    background-image: url(../img/rounge.jpg);
+    /* filter: blur(12px); */
+    background-image: url(../img/header.jpg);
     background-color: #b9b2aa;
     background-blend-mode: hard-light;
 }
@@ -205,13 +206,21 @@ article {
 .thumbnail {
     display: block;
     width: 80%;
-    margin: 30px auto;
+    margin: 50px auto;
+    border: 2px solid #DDD;
+}
+
+.content-img {
+    display: block;
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid #DDD;
 }
 
 .article-contents h1 {
-    font-size: 150%;
+    font-size: 180%;
     font-weight: bold;
-    text-indent: 20px;
+    text-indent: 10px;
     border-bottom: 2px solid #666;
     margin: 15px 0;
 }
